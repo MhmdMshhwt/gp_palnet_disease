@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gp_palnet_disease/static/css/main.31d6cfe0.css",
+    "main.js": "/gp_palnet_disease/static/js/main.14c1b491.js",
+    "static/js/592.1e21fe73.chunk.js": "/gp_palnet_disease/static/js/592.1e21fe73.chunk.js",
+    "index.html": "/gp_palnet_disease/index.html",
+    "main.14c1b491.js.map": "/gp_palnet_disease/static/js/main.14c1b491.js.map",
+    "592.1e21fe73.chunk.js.map": "/gp_palnet_disease/static/js/592.1e21fe73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.14c1b491.js"
+  ]
+}

@@ -1,0 +1,21 @@
+.primarySkills {
+    border-radius: 6px;
+    border: 1px dashed;
+    width: 100%;
+    flex: 1 0 0;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .uploadPhoto{
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+}

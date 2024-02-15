@@ -17,14 +17,14 @@ const Logo = () => {
                             fontWeight: '700',
                             fontSize: '20px',
                         }}
-                    >Make LYNX Better</Typography>
+                    >Make PlantGuard Better</Typography>
                     <Box className={styles.frame}>
                         <Typography variant="body2"
                             sx={{
                                 color: theme.palette.darkgrey.darkgrey500,
                                 textAlign: 'center',
                             }}
-                        >Thanks for taking an interest in the LYNX community!</Typography>
+                        >Thanks for taking an interest in the PlantGuard community!</Typography>
                         <Typography variant="body2"
                             sx={{
                                 color: theme.palette.darkgrey.darkgrey500,

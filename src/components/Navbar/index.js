@@ -16,7 +16,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const [openLeft, setOpenLeft] = React.useState(false);
-    const { theme } = useTheme();
+    const { theme, toggleToDarkMode, toggleToLightMode } = useTheme();
     const navigate = useNavigate();
     const { pathname } = useLocation();
     const location = useLocation();
@@ -65,7 +65,9 @@ const Navbar = () => {
             <Divider />
             <List>
                 <ListItem disablePadding>
-                    <ListItemButton>
+                    <ListItemButton
+                        onClick={() => handleNavigate('login')}
+                    >
                         <ListItemIcon>
                             <Login /> 
                         </ListItemIcon>
@@ -87,6 +89,7 @@ const Navbar = () => {
                             fontSize: '16px',
                             fontWeight: '500'
                         }}
+                        onClick={toggleToLightMode}
                     >Light</Button>
                     <Button
                         variant="contained"
@@ -96,6 +99,7 @@ const Navbar = () => {
                             fontWeight: '500',
                             bgcolor: '#9e9e9e'
                         }}
+                        onClick={toggleToDarkMode}
                     >Dark</Button>
                 </ListItem>
             </List>

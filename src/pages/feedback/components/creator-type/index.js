@@ -62,11 +62,6 @@ const CreatorType = ({ setIsOpenThanks }) => {
                 label="New feature suggestion"
               />
               <FormControlLabel
-                value="Suggest a new skill category"
-                control={<Radio />}
-                label="Suggest a new skill category"
-              />
-              <FormControlLabel
                 value="Bug report & platform issues"
                 control={<Radio />}
                 label="Bug report & platform issues"
@@ -77,24 +72,9 @@ const CreatorType = ({ setIsOpenThanks }) => {
                 label="Login or registration issue"
               />
               <FormControlLabel
-                value="Flag inappropriate image or report user"
+                value="Trouble with disease classification"
                 control={<Radio />}
-                label="Flag inappropriate image or report user"
-              />
-              <FormControlLabel
-                value="Trouble with skill classification"
-                control={<Radio />}
-                label="Trouble with skill classification"
-              />
-              <FormControlLabel
-                value="Nominate someone for Creator's Choice Award"
-                control={<Radio />}
-                label="Nominate someone for Creators's Choice Award"
-              />
-              <FormControlLabel
-                value="Business partnership proposal"
-                control={<Radio />}
-                label="Business partnership proposal"
+                label="Trouble with disease classification"
               />
               <FormControlLabel
                 value="Other"

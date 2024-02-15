@@ -30,7 +30,7 @@ function App() {
             <>
               <Navbar />
               <Routes>
-                <Route path="/landing" element={<Landing />} />
+                <Route path="/" element={<Landing />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/feedback" element={<MakePlantGuardBetter />} />
                 <Route path="/signup" element={<SignUp />} />

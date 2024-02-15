@@ -12,7 +12,6 @@ import Footer from './components/footer';
 
 function App() {
   const { theme } = useTheme();
-
   return (
     <Box className={styles.app}>
       <Box className="main"

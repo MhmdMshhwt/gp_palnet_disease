@@ -4,6 +4,8 @@ import Home from './pages/Home/index';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import styles from './App.module.css';
+import Navbar from './components/Navbar';
+import MakePlantGuardBetter from './pages/feedback/makeLynxBetter';
 
 function App() {
   const { theme } = useTheme();
@@ -13,6 +15,8 @@ function App() {
       <Box className="main"
         sx={{
           width:{
+            xs: '100%',
+            sm: '100%',
             md: '430px',
           }
         }}
@@ -20,10 +24,14 @@ function App() {
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <BrowserRouter>
-            <Routes>
-              <Route path="/" element={<Landing />} />
-              <Route path="/home" element={<Home />} />
-            </Routes>
+            <>
+              <Navbar />
+              <Routes>
+                <Route path="/" element={<Landing />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/feedback" element={<MakePlantGuardBetter />} />
+              </Routes>
+            </>
           </BrowserRouter>
         </ThemeProvider>        
       </Box>

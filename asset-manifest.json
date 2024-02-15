@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/gp_palnet_disease/static/css/main.aff555f0.css",
-    "main.js": "/gp_palnet_disease/static/js/main.d71e978d.js",
+    "main.js": "/gp_palnet_disease/static/js/main.f2174710.js",
     "static/js/592.1e21fe73.chunk.js": "/gp_palnet_disease/static/js/592.1e21fe73.chunk.js",
     "static/media/pexels-agnieszka-palmowska-631909.jpg": "/gp_palnet_disease/static/media/pexels-agnieszka-palmowska-631909.da07707cb2c62407d8e7.jpg",
     "index.html": "/gp_palnet_disease/index.html",
     "main.aff555f0.css.map": "/gp_palnet_disease/static/css/main.aff555f0.css.map",
-    "main.d71e978d.js.map": "/gp_palnet_disease/static/js/main.d71e978d.js.map",
+    "main.f2174710.js.map": "/gp_palnet_disease/static/js/main.f2174710.js.map",
     "592.1e21fe73.chunk.js.map": "/gp_palnet_disease/static/js/592.1e21fe73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aff555f0.css",
-    "static/js/main.d71e978d.js"
+    "static/js/main.f2174710.js"
   ]
 }
